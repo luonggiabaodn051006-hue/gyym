@@ -1,0 +1,21 @@
+.banner {
+  border-radius: 8px;
+  padding: 18px 22px;
+  margin-bottom: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.quoteText {
+  font-style: italic;
+  line-height: 1.65;
+}
+
+@media (max-width: 760px) {
+  .banner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
